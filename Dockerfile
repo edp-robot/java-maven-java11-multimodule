@@ -1,5 +1,5 @@
 # Use OpenJDK 11 as the base image
-FROM public.ecr.aws/docker/library/openjdk:11-slim
+FROM eclipse-temurin:11-jre-jammy
 
 # Set the working directory in the container
 WORKDIR /app
